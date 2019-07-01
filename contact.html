@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <!--Name-->
+        <p class="box1">Ryan Tiglao</p> 
+        <!--About | Contact | Portfolio-->
+        <p class="box2"> 
+        <a href="./index.html">About</a> | <a href="./contact.html">Contact</a> | <a href="./portfolio.html">Portfolio</a></p>
+    </nav>
+    <div class="section">
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="./assets/images/background-network.mp4">
+            </video>
+        </div>
+        <div class="mainBg">
+                <div class="main">
+                    <h1>Contact</h1>
+                    <br>
+                    <hr>
+                    <br>
+                    <form action="/my-handling-form-page" method="post" class="form">
+                        <div>
+                            <label for="name">Name:</label>
+                            <br>
+                            <input type="text" id="name" name="user_name" style="width: 125%">
+ 
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_mail" style="width: 125%">
+                            
+                            <label for="msg">Message:</label>
+                            <br>
+                            <textarea id="msg" name="user_message" style="width: 125%; height: 50%"></textarea>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+        </div> 
+    </div>
+    <footer>Copyright &copy;</footer>
+</body>
+</html>
